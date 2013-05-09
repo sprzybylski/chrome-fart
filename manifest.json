@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "FartScroll",
+  "description": "powered by fartscroll.js - http://theonion.github.io/fartscroll.js/",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-2.0.0.js", "fartscroll.js", "script.js"]
+    }
+  ]
+}

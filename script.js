@@ -1,3 +1,3 @@
-(function ($) {
-    $(document).fartscroll();
-}(jQuery));
+!function (w) {
+    w.fartscroll();
+}(window)
